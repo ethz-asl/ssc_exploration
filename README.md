@@ -9,6 +9,7 @@ Incremental 3D scene completion for safe and efficient exploration mapping and p
 # Table of Contents
 **Credits**
 * [Paper](#Paper)
+   
 
 
 > **__Note__** The code is not yet available, but will be released here shortly.
@@ -19,7 +20,7 @@ Incremental 3D scene completion for safe and efficient exploration mapping and p
 > **Examples**
 > - Training the Model
 > - Running the Planner
-> - Evaluating and Experiment]
+> - Evaluating and Experiment
 
 # Paper
 If you find this useful for your research, please consider citing our paper:
