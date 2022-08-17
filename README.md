@@ -25,16 +25,16 @@ Incremental 3D scene completion for safe and efficient exploration mapping and p
 If you find this useful for your research, please consider citing our paper:
 
 * Lukas Schmid, Mansoor Nasir Cheema, Victor Reijgwart, Roland Siegwart, Federico Tombari, and Cesar Cadena, "**Incremental 3D Scene Completion for Safe and Efficient Exploration Mapping and Planning**" in *ArXiv Preprint*, 2022.
-  \[ [ArXiv](https://arxiv.org/abs/2109.10165) \]
+  \[ ArXiv \]
   ```bibtex
   @inproceedings{schmid2022scexplorer,
-    title={Panoptic Multi-TSDFs: a Flexible Representation for Online Multi-resolution Volumetric Mapping and Long-term Dynamic Scene Consistency},
-    author={Schmid, Lukas and Delmerico, Jeffrey and Sch{\"o}nberger, Johannes and Nieto, Juan and Pollefeys, Marc and Siegwart, Roland and Cadena, Cesar},
-    booktitle={2022 IEEE International Conference on Robotics and Automation (ICRA)},
+    title={Incremental 3D Scene Completion for Safe and Efficient Exploration Mapping and Planning},
+    author={Schmid, Lukas and Cheema, Mansoor Nasir and Reijgwart, Victor and Siegwart, Roland and Tombari, Federico and Cadena, Cesar},
+    booktitle={},
     year={2022},
     volume={},
     number={},
-    pages={8018-8024},
-    doi={10.1109/ICRA46639.2022.9811877}}
+    pages={},
+    doi={}
   }
   ```
