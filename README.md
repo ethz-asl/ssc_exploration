@@ -10,15 +10,16 @@ Incremental 3D scene completion for safe and efficient exploration mapping and p
 **Credits**
 * [Paper](#Paper)
 
+
 > **__Note__** The code is not yet available, but will be released here shortly.
 >
 > **Setup**
-> * [Installation](#Installation)
+> * Installation
 >
 > **Examples**
-> - [Training the Model](#running-the-panoptic-mapper)
-> - [Running the Planner](#monolithic-semantic-mapping)
-> - [Evaluating and Experiment](#running-the-rio-dataset)
+> - Training the Model
+> - Running the Planner
+> - Evaluating and Experiment]
 
 # Paper
 If you find this useful for your research, please consider citing our paper:
