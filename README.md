@@ -2,7 +2,7 @@
 This repository will contain the code for **SC-Explorer**, our framework for incremental fusion of 3D semantic scene completion and safe and efficient integration thereof into mobile robotic mapping and planning for exploration.
 
 <p align="center">
-  <img width="100%" src="https://user-images.githubusercontent.com/10983181/148309878-bcc053cd-acf5-4eea-8e51-7553e92315af.gif">
+  <img width="100%" src="https://user-images.githubusercontent.com/36043993/191208211-b718475f-08f8-43d2-9edd-ecdfde553f5b.gif">
 </p>
 Incremental 3D scene completion for safe and efficient exploration mapping and planning.
 
