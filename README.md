@@ -8,6 +8,7 @@ Incremental 3D scene completion for safe and efficient exploration mapping and p
 # Table of Contents
 **Credits**
 * [Paper](#Paper)
+* [Video](#Video)
    
 
 
@@ -25,7 +26,7 @@ Incremental 3D scene completion for safe and efficient exploration mapping and p
 If you find this useful for your research, please consider citing our paper:
 
 * Lukas Schmid, Mansoor Nasir Cheema, Victor Reijgwart, Roland Siegwart, Federico Tombari, and Cesar Cadena, "**SC-Explorer: Incremental 3D Scene Completion for Safe and Efficient Exploration Mapping and Planning**" in *ArXiv Preprint*, 2022.
-  \[ [ArXiv](https://arxiv.org/abs/2208.08307) \]
+  \[ [ArXiv](https://arxiv.org/abs/2208.08307) | [Video](https://youtu.be/DMXdhCqUqts)\]
   ```bibtex
   @inproceedings{schmid2022scexplorer,
     title={SC-Explorer: Incremental 3D Scene Completion for Safe and Efficient Exploration Mapping and Planning},
@@ -38,3 +39,8 @@ If you find this useful for your research, please consider citing our paper:
     doi={10.48550/arXiv.2208.08307}
   }
   ```
+
+# Video
+An overview of SC-Explorer is available on [YouTube](https://youtu.be/DMXdhCqUqts):
+
+[<img src=https://github.com/ethz-asl/ssc_exploration/assets/36043993/09c4be47-4842-4bd0-8029-c41af455f7a8 alt="Youtube Video">](https://youtu.be/DMXdhCqUqts)
