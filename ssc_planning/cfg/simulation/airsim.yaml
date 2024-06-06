@@ -1,0 +1,65 @@
+vehicle_name: airsim_drone
+state_refresh_rate: 100
+ClockSpeed: 1
+velocity: 0.5
+ViewMode: NoDisplay # Manual, NoDisplay, Fpv
+publish_sensor_transforms: true
+
+SegmentationSettings:
+  InitMethod: None # CommonObjectsRandomIDs
+  MeshNamingMethod: OwnerName # StaticMeshName, OwnerName
+  OverrideExisting: false
+ 
+sensors:
+  Scene_cam:
+    sensor_type: Camera
+    image_type: Scene
+    rate: 10
+    CaptureSettings:   
+      Width: 640
+      Height: 480
+      FOV_Degrees: 90
+      AutoExposureSpeed: 100
+      AutoExposureBias: 0
+      AutoExposureMaxBrightness: 0.64
+      AutoExposureMinBrightness: 0.03
+      MotionBlurAmount: 0
+      TargetGamma: 1.0
+      ProjectionMode: ""
+      OrthoWidth: 5.12
+    T_B_S:
+      - [1, 0, 0, 0.3]
+      - [0, 1, 0, 0]
+      - [0, 0, 1, 0]
+      - [0, 0, 0, 1]
+      
+  Depth_cam:
+    sensor_type: Camera
+    image_type: DepthPlanar
+    rate: 10
+    pixels_as_float: true
+    CaptureSettings:   
+      Width: 640
+      Height: 480
+      FOV_Degrees: 90
+      AutoExposureSpeed: 100
+      AutoExposureBias: 0
+      AutoExposureMaxBrightness: 0.64
+      AutoExposureMinBrightness: 0.03
+      MotionBlurAmount: 0
+      TargetGamma: 1.0
+      ProjectionMode: ""
+      OrthoWidth: 5.12
+    T_B_S:
+      - [1, 0, 0, 0.3]
+      - [0, 1, 0, 0]
+      - [0, 0, 1, 0]
+      - [0, 0, 0, 1]
+   
+
+processors:
+  RGB_pcl:
+    processor_type: DepthToPointcloud
+    depth_camera_name: Depth_cam
+    color_camera_name: Scene_cam
+    max_ray_length: 5

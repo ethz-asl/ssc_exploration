@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>ssc_planning</name>
+    <version>1.0.0</version>
+    <description>Planning using SSC voxels as map representation</description>
+    <author email="mansoor.cheema@tum.de">Mansoor Cheema</author>
+    <maintainer email="mansoor.cheema@tum.de">Mansoor Cheema</maintainer>
+
+    <license>BSD</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <buildtool_depend>catkin_simple</buildtool_depend>
+
+    <depend>voxblox_ros</depend>
+    <depend>voxblox</depend>
+    <depend>ssc_mapping</depend>
+    <depend>active_3d_planning_core</depend>
+    <depend>active_3d_planning_ros</depend>
+    <depend>active_3d_planning_voxblox</depend>
+</package>

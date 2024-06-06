@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>ssc_mapping</name>
+    <version>0.0.0</version>
+    <description>Voxblox and SSC voxels as map representation</description>
+
+    <author email="mansoor.cheema@tum.de">Mansoor Cheema</author>
+
+    <maintainer email="mansoor.cheema@tum.de">Mansoor Cheema</maintainer>
+
+    <license>BSD</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <buildtool_depend>catkin_simple</buildtool_depend>
+    <depend>sensor_msgs</depend>
+
+    <depend>voxblox_ros</depend>
+    <depend>voxblox</depend>
+    <depend>ssc_msgs</depend>
+</package>

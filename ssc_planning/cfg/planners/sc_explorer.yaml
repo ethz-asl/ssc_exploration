@@ -1,0 +1,33 @@
+map:
+  type: "SSCVoxbloxOccupancyMap"
+  voxel_size: 0.08
+  fusion_strategy: "occupancy_fusion"
+  pred_conf: 0.75
+  max_weight: 30.0
+  prob_occupied: 0.68
+  prob_free: 0.49
+  min_prob: 0.12
+  max_prob: 0.97
+  decay_weight_std: 0.0
+  
+  # Confidence Threshold.
+  ssc_confidence_threshold: 0.05
+  
+  # Robot collision checking.
+  use_voxblox_planning: true  
+  use_ssc_planning: true
+
+  # Block raycasting.
+  use_voxblox_information_planning: true
+  use_ssc_information_planning: false
+
+trajectory_evaluator:  # RRTStarEvaluatorAdapter
+  following_evaluator:   #ContinuousYawPlanningEvaluator
+    following_evaluator:
+      type: "SSCExplorationEvaluator"
+      predicted_occ_weight: 1.0
+      predicted_free_weight: 1.0
+      unobserved_weight: 0.0
+
+      sensor_model:
+        type: "IterativeRayCaster"

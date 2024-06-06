@@ -1,0 +1,10 @@
+publish_pointclouds: true
+ssc_voxel_size: 0.08
+ssc_voxels_per_side: 16
+decay_weight_std: 0
+fusion_prob_free: 0.49  
+fusion_prob_occupied: 0.67
+fusion_max_weight: 30.0   
+fusion_pred_conf: 0.75   
+fusion_min_prob: 0.12  
+fusion_max_prob: 0.97 

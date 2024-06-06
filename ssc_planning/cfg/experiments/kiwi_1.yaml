@@ -1,0 +1,19 @@
+# Experimentspecific parameters
+
+# Bounding boxes in initialization/world frame
+
+map_bounding_volume:
+  x_min: -2.2
+  x_max: 3.8 
+  y_min: -2.8
+  y_max: 1.2
+  z_min: 1 
+  z_max: 3
+
+target_bounding_volume:
+  x_min: -20
+  x_max: 20
+  y_min: -20
+  y_max: 20
+  z_min: -20 
+  z_max: 20

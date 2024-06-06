@@ -1,0 +1,14 @@
+use_tf_transforms: true
+publish_tsdf_map: true
+publish_pointclouds_on_update: false
+publish_esdf_map: true
+tsdf_voxel_size: 0.08
+tsdf_voxels_per_side: 16
+truncation_distance: 0.16
+color_mode: color
+update_mesh_every_n_sec: 1
+method: fast
+max_ray_length_m: 5
+allow_clear: true
+publish_map_incremental: true
+verbose: false

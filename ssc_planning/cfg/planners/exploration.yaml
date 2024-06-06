@@ -1,0 +1,11 @@
+map:
+  type: "VoxbloxMap"
+
+trajectory_evaluator:  # RRTStarEvaluatorAdapter
+  following_evaluator:   #ContinuousYawPlanningEvaluator
+    following_evaluator:
+      type: "NaiveEvaluator"
+
+      sensor_model:
+        type: "IterativeRayCaster"
+

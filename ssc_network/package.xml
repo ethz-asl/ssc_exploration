@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>ssc_network</name>
+    <version>1.0.0</version>
+    <description>3D Semantic Scene Completion for Exploration Mapping and Planning, based on PALNet. </description>
+
+    <author email="schmluk@ethz.de">Lukas Schmid</author>
+    <author email="mansoor.cheema@tum.de">Mansoor Cheema</author>
+
+    <maintainer email="schmluk@ethz.de">Lukas Schmid</maintainer>
+    <maintainer email="mansoor.cheema@tum.de">Mansoor Cheema</maintainer>
+
+    <license>BSD</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <buildtool_depend>catkin_simple</buildtool_depend>
+
+    <depend>ssc_msgs</depend>
+</package>
