@@ -78,7 +78,7 @@ wstool update
 catkin build ssc_planning
 ```
 
-9. Build the scene completion network based on PAL-Net following the instructions in `ssc_network/`.
+9. Build the scene completion network based on PAL-Net following the instructions in [`ssc_network/`](https://github.com/ethz-asl/ssc_exploration/tree/main/ssc_network).
 
 ## Simulation 
 The following tools were used in our experiments, other simulation or real robot setups should work, too:
@@ -98,7 +98,7 @@ The environment used in our experiments, including all plugins and ground truth 
 # Experiments 
 
 ## Training the Model
-Instructions to train and test the SC-Network as well as pretrained weights are given in `/ssc_network`. 
+Instructions to train and test the SC-Network as well as pretrained weights are given in [`ssc_network/`](https://github.com/ethz-asl/ssc_exploration/tree/main/ssc_network). 
 
 
 ## Running the Planner
@@ -109,7 +109,7 @@ cd <UNREAL_INSTALL_DIR> # Move to the unreal install directory
 ./Engine/Binaries/Linux/UE4Editor your-project-file.uproject -opengl4
 ```
 
-2. Start the SSC Network (Make sure the network is setup as explained in `/ssc_network` first):
+2. Start the SSC Network (Make sure the network is setup as explained in [`ssc_network/`](https://github.com/ethz-asl/ssc_exploration/tree/main/ssc_network) first):
 ```shell script
 export SSC_DIR=/home/$USER/catkin_ws/src/ssc_exploration/ssc_network
 python3 $SSC_DIR/infer_ros.py --model palnet --resume $SSC_DIR/pretrained_models/weights/PALNet.pth.tar
